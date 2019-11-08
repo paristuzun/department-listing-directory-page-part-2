@@ -1,0 +1,51 @@
+.breadcrumbs {
+	margin: 0.5rem auto 2rem;
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+}
+.fa,
+.fas {
+	font-family: 'FontAwesome';
+	transform: scale(1.2, 1);
+}
+a {
+	color: #d60e96;
+}
+a:hover {
+	color: #a60b74;
+	text-decoration: none;
+}
+.fileTrailDividers {
+	padding: 0 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+    color: #4d4d4d;
+}
+
+.author-info .avatar img {
+    border: 3px solid #ebebeb;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.author-info {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.paddingSection20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

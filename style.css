@@ -5,16 +5,23 @@
 }
 .fa,
 .fas {
-	font-family: 'FontAwesome';
-	transform: scale(1.2, 1);
+    font-family: 'FontAwesome';
+    font-size: 1.2rem;
 }
+
+.fa-mobile {
+    font-size: 1.7rem;
+}
+
 a {
 	color: #d60e96;
 }
+
 a:hover {
 	color: #a60b74;
 	text-decoration: none;
 }
+
 .fileTrailDividers {
 	padding: 0 2px;
 }
@@ -31,6 +38,16 @@ ul {
     color: #4d4d4d;
 }
 
+.contact-info li em {
+    color: #030000;
+    line-height: 14px;
+}
+
+.contact-info li p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
 .author-info .avatar img {
     border: 3px solid #ebebeb;
     -webkit-border-radius: 50%;
@@ -45,7 +62,12 @@ ul {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-.paddingSection20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+.introduction p {
+    margin: 15px 0;
+    font-style: italic;
+    color: #4d4d4d;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 33px;
 }
